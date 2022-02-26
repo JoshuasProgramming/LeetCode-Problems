@@ -32,7 +32,7 @@ const consecutive = (arr) => {
         //compare temp storage to next item
         //get the distance between the temp and next
         //item
-        current = (Math.abs(sorted_arr[i] - sorted_arr[i + 1])) - 1;
+        let current = (Math.abs(sorted_arr[i] - sorted_arr[i + 1])) - 1;
         score = current + score;
         
         //store the next item in the temp
