@@ -77,7 +77,7 @@ const FizzBuzz = () => {
     
     //Don't forget we put the null at index 0.
     //unshift will remove the null
-    arr.shift
+    arr.shift();
     
     //console log the final array
     console.log(arr);
