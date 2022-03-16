@@ -11,4 +11,5 @@ const factorial = (x) => {
     //3 * (2 * (1))
 }
 
+//console log the answer to whatever number we put in the parameter
 console.log(factorial(3));
