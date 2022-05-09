@@ -45,6 +45,8 @@ const sumOddLengthSubarrays = () => {
     
     //loop through the array, 'arr' and add each number to the 'list' => This works as, each number has a length of 1, thus it is odd
     for(let i = 0; i < arr.length; i++){
+        
+        //put numbers into their own array and push
         list.push([arr[i]]);
     }
     
